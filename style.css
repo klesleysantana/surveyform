@@ -1,0 +1,106 @@
+body {
+    background-image: linear-gradient(90deg, rgba(48, 44, 41, 0.8), rgba(128, 127, 126, 0.7)), 
+    url(https://www.dignited.com/wp-content/uploads/2022/08/top10lan-768x432.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    font-family: 'Ninja Naruto', sans-serif;
+    color: white;
+}
+
+
+
+form {
+    background-color: rgba(14, 11, 26, 0.774);
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 50px;
+    max-width: 700px;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: -8px;
+    margin-top: 60px;
+    text-shadow:
+            -1px -1px 0px #000, 
+            -1px 1px 0px #000,      
+             1px -1px 0px #000,    
+             1px 0px 0px #000;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow:
+            -1px -1px 0px #000, 
+            -1px 1px 0px #000,      
+             1px -1px 0px #000,    
+             1px 0px 0px #000;
+}
+
+div {
+    padding: 20px;
+}
+
+label {
+    font-size: 18px;
+    display: block;
+}
+
+.topic {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.digit {
+    display: block;
+    margin-top: 5px;
+    padding: 6px 0;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 100%;
+    font-family: 'Ninja Naruto', sans-serif;
+}
+
+/* Mark Buttoms */
+.mark-buttom {
+    vertical-align: middle;
+    margin-top: 5px;
+}
+
+.div-mark {
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+    display: inline-table;
+}
+
+.text {
+    font-family: 'Ninja Naruto', sans-serif;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+/* Submit Buttom */
+.div-submit {
+    margin: 0 auto;
+    width: 23%;
+    padding: 20px;
+}
+
+.submit {
+    font-size: 20px;
+    border-radius: 5px;
+    display: block;
+    height: 3em;
+    width: 100%;
+}
+
+.submit:hover{
+    cursor: pointer;
+    background-color: rgb(14, 11, 26);
+    border-color: white;
+    color: white;
+}
